@@ -1,0 +1,14 @@
+.todos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+.todoItem{
+    border: 1px solid red;
+    padding: 10px;
+}
+.remove{
+    color:red;
+    text-decoration: underline;
+    cursor: pointer;
+}
